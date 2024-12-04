@@ -12,14 +12,14 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
     - pip
     - python >=3.7
   run:
-    - astropy
+    - astropy-base
     - astroquery
     - lxml
     - matplotlib-base >3.1
