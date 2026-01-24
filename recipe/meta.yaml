@@ -1,5 +1,5 @@
 {% set name = "getCalspec" %}
-{% set version = "2.3.3" %}
+{% set version = "2.3.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | lower }}-{{ version }}.tar.gz
-  sha256: d94aa6af084b6a4368c74be833212a7859355949fb8988d356ce06e4fa1591b3
+  sha256: 1947576d47dd2e9ce01a54242928be3b0b86f5a970b63e0f7aa360ef2340a9fe
 
 build:
   noarch: python
